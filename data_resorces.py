@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-TIINGO_API_KEY = os.getenv("TIINGO_API_KEY") or "06d158eee142ca6dcc1f3169577e269043070750"
+TIINGO_API_KEY = os.getenv("TIINGO_API_KEY") or "your_api_key"
 now = datetime.now().strftime('%Y-%m-%d')
 print(now)
 
